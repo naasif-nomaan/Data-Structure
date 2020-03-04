@@ -97,6 +97,22 @@ node->next=new_node;
 
 }
 
+void Traverse(Node *head){
+
+Node* current_node=head;
+
+while(current_node!=NULL){
+
+printf("%d",current_node->data);
+current_node=current_node->next;
+
+}
+printf("\n")
+
+}
+
+
+
 int main()
 {
 
@@ -112,3 +128,4 @@ int main()
     printf("data=%d, nextNode=%d",n1->data,n1->next);
     return 0;
 }
+
