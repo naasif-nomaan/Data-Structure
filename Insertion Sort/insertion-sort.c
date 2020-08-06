@@ -6,7 +6,7 @@ int main()
 
 int step=0, item=0,n=0, temp=0, j=0;
 
-int arr[]={23,1,4,6,7,8,3};
+unsigned int arr[]={58,12,23,1,4,6,45,7,8,3};
 
 n=sizeof(arr)/sizeof(int);
 
