@@ -3,8 +3,6 @@
 #include <math.h>
 
 
-static unsigned int G[10]={0,0,0,0,0,0,0,0,0,0};
-
  void merge_(unsigned int A[], int p, int q, int r){
 
 
